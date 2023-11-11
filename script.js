@@ -24,6 +24,7 @@ const employee = new Employee("Bob", 30, "Manager");
 
 person.greet();
 employee.greet();
+employee.jobGreet();
 
 // Do not change code below this line
 window.Person = Person;
