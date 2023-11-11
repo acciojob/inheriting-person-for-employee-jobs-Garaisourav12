@@ -23,8 +23,8 @@ const person = new Person("Alice", 25);
 const employee = new Employee("Alice", 25, "Manager");
 
 person.greet();
-employee.greet();
-//employee.jobGreet();
+// employee.greet();
+employee.jobGreet();
 
 // Do not change code below this line
 window.Person = Person;
