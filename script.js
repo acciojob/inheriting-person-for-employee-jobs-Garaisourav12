@@ -20,7 +20,7 @@ Employee.prototype.jobGreet = function () {
 }
 
 const person = new Person("Alice", 25);
-const employee = new Employee("Alice", 30, "Manager");
+const employee = new Employee("Alice", 25, "Manager");
 
 person.greet();
 employee.greet();
